@@ -1,8 +1,7 @@
 {
-  "name": "cron-build",
+  "name": "@lendup_ir/cron-build",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "lendup cron build utility",
   "bin": {
     "cron-build": "bin/cron-build.js"
   },
@@ -19,7 +18,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardalan-nhd/cron-build.git"
+  },
+  "author": "ardalan_nhd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardalan-nhd/cron-build/issues"
+  },
+  "homepage": "https://github.com/ardalan-nhd/cron-build#readme"
 }
