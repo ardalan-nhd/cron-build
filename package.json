@@ -1,0 +1,25 @@
+{
+  "name": "cron-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cron-build": "bin/cron-build.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "lodash.isequal": "^4.5.0",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
