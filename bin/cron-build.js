@@ -148,4 +148,4 @@ const strictMode = !!process.argv.find(
   (item) => item === "-s" || item === "--strict"
 )
 build(false, strictMode)
-cron.schedule("0 * * * * *", () => build(true, strictMode))
+cron.schedule("0 0 * * * *", () => build(true, strictMode))
